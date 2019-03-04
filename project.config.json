@@ -8,11 +8,12 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.1",
-	"appid": "wxd7877d3c2d836608",
+	"appid": "wxe2acde78528894a9",
 	"projectname": "wx",
 	"debugOptions": {
 		"hidedInDevtools": []

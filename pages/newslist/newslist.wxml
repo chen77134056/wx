@@ -1,6 +1,5 @@
 <!--pages/newslist/newslist.wxml-->
-<view class='newslist'>
-
+<scroll-view class='newslist' style="height:200px;background:#ccc" scroll-y="true" bindscrolltolower="xxx">
 
      <view class='box' data-postid="123" bindtap="viewnews">
             <view class='top'> 
@@ -53,4 +52,4 @@
      
 
 
-</view>
+</scroll-view>

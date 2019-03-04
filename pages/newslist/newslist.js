@@ -3,9 +3,14 @@ Page({
   data: {
     images: {}
   },
-  viewnews:function(e){
-    console.log(e)
+  onPullDownRefresh(){
+    console.log(1)
   },
+
+  xxx:function(){
+    console.log(123)
+  },
+
   imageLoad: function (e) {
        console.log(e)
 
