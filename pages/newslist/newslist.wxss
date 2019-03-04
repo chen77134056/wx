@@ -1,0 +1,12 @@
+/* pages/newslist/newslist.wxss */
+.box{margin-top:30rpx; }
+.newslist{padding-bottom: 30rpx;}
+
+.top{padding: 20rpx 0 20rpx 20rpx;}
+.top text{position: relative;top:-26rpx;margin-left: 20rpx;}
+.top image{width: 80rpx;height: 80rpx;border: 1px solid red;border-radius:50%;}
+
+.bigimg{display: block;margin: 0 auto;height: 100%;}
+.txt,.set{padding: 10rpx;}
+.txt text{font-size: 30rpx}
+

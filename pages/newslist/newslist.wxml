@@ -1,0 +1,56 @@
+<!--pages/newslist/newslist.wxml-->
+<view class='newslist'>
+
+
+     <view class='box' data-postid="123" bindtap="viewnews">
+            <view class='top'> 
+                    <image src='http://www.xgllseo.com/wp-content/themes/flat_ui/img/icons/png/api.png'></image>
+                    <text>2019-11-11</text>
+                </view> 
+                
+                <view style='background:#000;height: 440rpx;'>
+                    <image class='bigimg' src='../../images/234.jpg' bindload='imageLoad'></image>
+                </view>
+
+                <view class='txt'>
+                    <text>顺丰到付撒地方所得税法士大夫首付斯蒂芬森的顺丰到付撒地方所得税法士大夫首付斯蒂芬森的顺丰到付撒地方所得税法士大夫首付斯蒂芬森的</text>
+                </view>
+
+
+                <view class='set'>
+                    喜欢：<text>123</text>   
+                    收藏：<text>456</text>
+                </view>
+     </view>
+
+
+
+
+
+
+      <view class='box' data-postid="456">
+            <view class='top'> 
+                    <image src='http://www.xgllseo.com/wp-content/themes/flat_ui/img/icons/png/api.png'></image>
+                    <text>2019-11-11</text>
+                </view> 
+                
+                <view style='background:#000;height: 440rpx;'>
+                    <image class='bigimg' src='../../images/234.jpg' bindload='imageLoad'></image>
+                </view>
+
+                <view class='txt'>
+                    <text>顺丰到付撒地方所得税法士大夫首付斯蒂芬森的顺丰到付撒地方所得税法士大夫首付斯蒂芬森的顺丰到付撒地方所得税法士大夫首付斯蒂芬森的</text>
+                </view>
+
+
+                <view>
+                    喜欢：<text>123</text>   
+                    收藏：<text>456</text>
+                </view>
+     </view>
+
+
+     
+
+
+</view>

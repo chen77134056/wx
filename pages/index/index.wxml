@@ -5,7 +5,7 @@
       src='http://www.xgllseo.com/wp-content/themes/flat_ui/img/icons/png/jquery.png'></image>
       <view>hello, <text>7\\n月</text></view>
 
-      <view>
+      <view bindtap="homeclick">
          <button style='width:200px'>sdf</button>
       </view>
       

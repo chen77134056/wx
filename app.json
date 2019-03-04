@@ -1,5 +1,18 @@
 {
   "pages": [
+    "pages/newslist/newslist",
     "pages/index/index"
-  ]
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/newslist/newslist",
+        "text": "日志"
+      }
+    ]
+  }
 }
