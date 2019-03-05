@@ -28,7 +28,37 @@ Page({
   },
 
   onReady:function(){
-  
-  }
+    
+    console.log( wx.getLaunchOptionsSync().scene )
+  },
+  ab:()=>{
+    wx.openSetting({
+      success(res) {
+        console.log(res.authSetting)
+      }
+    })
+  },
 
+  abc:function(){
+    wx.startRecord({
+      success(res) {
+         console.log(res)
+      }
+    })
+  },
+  login(){
+      wx.login({
+        success(res) {
+          console.log(res)
+        }
+      })
+  },
+  getu(){
+    wx.getUserInfo({
+      withCredentials:true,
+      success(res) {
+         console.log(res)
+      }
+    })
+  }
 })

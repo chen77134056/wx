@@ -49,7 +49,15 @@
      </view>
 
 
-     
+   
 
 
 </scroll-view>
+
+  <view>
+       <button bindtap="ab">xxx</button>
+       <button bindtap="abc">录音</button>
+       <button bindtap="login">登录</button>
+       <button bindtap="getu" open-type="getUserInfo">getUserInfo</button>
+ </view>
+
